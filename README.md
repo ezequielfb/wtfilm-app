@@ -6,10 +6,6 @@ Um jogo de navegador onde o jogador deve adivinhar o nome de um filme famoso a p
 
 O WTFilm é uma aplicação web full-stack desenvolvida em Python com o micro-framework Flask no backend, e HTML, CSS e JavaScript puros no frontend. O principal diferencial do projeto é o uso da API do Google Gemini para gerar dinamicamente os desafios (as sinopses), garantindo uma experiência de jogo sempre nova e imprevisível. O projeto foi construído com foco em boas práticas, incluindo gerenciamento de estado por sessão, tratamento de erros, normalização de strings para uma experiência de usuário mais tolerante, e uma arquitetura de dados flexível.
 
-## Captura de Tela
-
-[Insira aqui uma captura de tela do jogo em funcionamento. Você pode fazer o upload da imagem para o seu repositório do GitHub e depois editar este arquivo para adicionar o link.]
-
 ## Funcionalidades
 
 * **Sinopses Geradas por IA:** Utiliza a API do Google Gemini para criar sinopses únicas e desafiadoras a cada rodada.
