@@ -130,5 +130,1118 @@
   {
     "display_title": "Kill Bill: Volume 1",
     "aliases": ["Kill Bill Volume 1", "Kill Bill Vol 1"]
+  },
+  {
+    "display_title": "Avatar",
+    "aliases": ["Avatar", "Avatar: O Caminho da Água", "Avatar: The Way of Water"]
+  },
+  {
+    "display_title": "Titanic",
+    "aliases": ["Titanic"]
+  },
+  {
+    "display_title": "Os Vingadores",
+    "aliases": ["Os Vingadores", "The Avengers", "Avengers Assemble"]
+  },
+  {
+    "display_title": "Vingadores: Guerra Infinita",
+    "aliases": ["Vingadores Guerra Infinita", "Avengers Infinity War"]
+  },
+  {
+    "display_title": "Vingadores: Ultimato",
+    "aliases": ["Vingadores Ultimato", "Avengers Endgame"]
+  },
+  {
+    "display_title": "Homem de Ferro",
+    "aliases": ["Homem de Ferro", "Iron Man"]
+  },
+  {
+    "display_title": "Homem-Aranha: Sem Volta Para Casa",
+    "aliases": ["Homem Aranha Sem Volta Para Casa", "Spider-Man No Way Home"]
+  },
+  {
+    "display_title": "Pantera Negra",
+    "aliases": ["Pantera Negra", "Black Panther"]
+  },
+  {
+    "display_title": "Capitão América: O Soldado Invernal",
+    "aliases": ["Capitão América O Soldado Invernal", "Captain America The Winter Soldier"]
+  },
+  {
+    "display_title": "Capitão América: Guerra Civil",
+    "aliases": ["Capitão América Guerra Civil", "Captain America Civil War"]
+  },
+  {
+    "display_title": "Guardiões da Galáxia",
+    "aliases": ["Guardiões da Galáxia", "Guardians of the Galaxy"]
+  },
+  {
+    "display_title": "Doutor Estranho",
+    "aliases": ["Doutor Estranho", "Doctor Strange"]
+  },
+  {
+    "display_title": "Thor: Ragnarok",
+    "aliases": ["Thor Ragnarok"]
+  },
+  {
+    "display_title": "Homem-Formiga",
+    "aliases": ["Homem Formiga", "Ant-Man"]
+  },
+  {
+    "display_title": "Deadpool",
+    "aliases": ["Deadpool"]
+  },
+  {
+    "display_title": "Logan",
+    "aliases": ["Logan"]
+  },
+  {
+    "display_title": "Mulher-Maravilha",
+    "aliases": ["Mulher Maravilha", "Wonder Woman"]
+  },
+  {
+    "display_title": "Batman vs Superman: A Origem da Justiça",
+    "aliases": ["Batman vs Superman A Origem da Justiça", "Batman v Superman Dawn of Justice"]
+  },
+  {
+    "display_title": "Liga da Justiça",
+    "aliases": ["Liga da Justiça", "Justice League", "Zack Snyder's Justice League"]
+  },
+  {
+    "display_title": "Coringa",
+    "aliases": ["Coringa", "Joker"]
+  },
+  {
+    "display_title": "Shazam!",
+    "aliases": ["Shazam"]
+  },
+  {
+    "display_title": "Aquaman",
+    "aliases": ["Aquaman"]
+  },
+  {
+    "display_title": "Homem-Aranha: Longe de Casa",
+    "aliases": ["Homem Aranha Longe de Casa", "Spider-Man Far From Home"]
+  },
+  {
+    "display_title": "Os Incríveis",
+    "aliases": ["Os Incríveis", "The Incredibles"]
+  },
+  {
+    "display_title": "Os Incríveis 2",
+    "aliases": ["Os Incríveis 2", "The Incredibles 2"]
+  },
+  {
+    "display_title": "Frozen: Uma Aventura Congelante",
+    "aliases": ["Frozen Uma Aventura Congelante", "Frozen"]
+  },
+  {
+    "display_title": "Frozen II",
+    "aliases": ["Frozen 2", "Frozen II"]
+  },
+  {
+    "display_title": "Moana: Um Mar de Aventuras",
+    "aliases": ["Moana Um Mar de Aventuras", "Moana"]
+  },
+  {
+    "display_title": "Encanto",
+    "aliases": ["Encanto"]
+  },
+  {
+    "display_title": "Zootopia",
+    "aliases": ["Zootopia", "Zootrópolis"]
+  },
+  {
+    "display_title": "Raya e o Último Dragão",
+    "aliases": ["Raya e o Último Dragão", "Raya and the Last Dragon"]
+  },
+  {
+    "display_title": "Red: Crescer é uma Fera",
+    "aliases": ["Red Crescer é uma Fera", "Turning Red"]
+  },
+  {
+    "display_title": "Divertida Mente",
+    "aliases": ["Divertida Mente", "Inside Out"]
+  },
+  {
+    "display_title": "Procurando Nemo",
+    "aliases": ["Procurando Nemo", "Finding Nemo"]
+  },
+  {
+    "display_title": "Procurando Dory",
+    "aliases": ["Procurando Dory", "Finding Dory"]
+  },
+  {
+    "display_title": "Monstros S.A.",
+    "aliases": ["Monstros SA", "Monsters Inc."]
+  },
+  {
+    "display_title": "Universidade Monstros",
+    "aliases": ["Universidade Monstros", "Monsters University"]
+  },
+  {
+    "display_title": "Carros",
+    "aliases": ["Carros", "Cars"]
+  },
+  {
+    "display_title": "Carros 2",
+    "aliases": ["Carros 2", "Cars 2"]
+  },
+  {
+    "display_title": "Carros 3",
+    "aliases": ["Carros 3", "Cars 3"]
+  },
+  {
+    "display_title": "Valente",
+    "aliases": ["Valente", "Brave"]
+  },
+  {
+    "display_title": "Viva: A Vida é uma Festa",
+    "aliases": ["Viva A Vida é uma Festa", "Coco"]
+  },
+  {
+    "display_title": "Soul",
+    "aliases": ["Soul"]
+  },
+  {
+    "display_title": "Luca",
+    "aliases": ["Luca"]
+  },
+  {
+    "display_title": "Toy Story 2",
+    "aliases": ["Toy Story 2"]
+  },
+  {
+    "display_title": "Toy Story 3",
+    "aliases": ["Toy Story 3"]
+  },
+  {
+    "display_title": "Toy Story 4",
+    "aliases": ["Toy Story 4"]
+  },
+  {
+    "display_title": "Harry Potter e a Pedra Filosofal",
+    "aliases": ["Harry Potter e a Pedra Filosofal", "Harry Potter and the Sorcerer's Stone", "Harry Potter and the Philosopher's Stone"]
+  },
+  {
+    "display_title": "Harry Potter e a Câmara Secreta",
+    "aliases": ["Harry Potter e a Câmara Secreta", "Harry Potter and the Chamber of Secrets"]
+  },
+  {
+    "display_title": "Harry Potter e o Prisioneiro de Azkaban",
+    "aliases": ["Harry Potter e o Prisioneiro de Azkaban", "Harry Potter and the Prisoner of Azkaban"]
+  },
+  {
+    "display_title": "Harry Potter e o Cálice de Fogo",
+    "aliases": ["Harry Potter e o Cálice de Fogo", "Harry Potter and the Goblet of Fire"]
+  },
+  {
+    "display_title": "Harry Potter e a Ordem da Fênix",
+    "aliases": ["Harry Potter e a Ordem da Fênix", "Harry Potter and the Order of the Phoenix"]
+  },
+  {
+    "display_title": "Harry Potter e o Enigma do Príncipe",
+    "aliases": ["Harry Potter e o Enigma do Príncipe", "Harry Potter and the Half-Blood Prince"]
+  },
+  {
+    "display_title": "Harry Potter e as Relíquias da Morte: Parte 1",
+    "aliases": ["Harry Potter e as Relíquias da Morte Parte 1", "Harry Potter and the Deathly Hallows Part 1"]
+  },
+  {
+    "display_title": "Harry Potter e as Relíquias da Morte: Parte 2",
+    "aliases": ["Harry Potter e as Relíquias da Morte Parte 2", "Harry Potter and the Deathly Hallows Part 2"]
+  },
+  {
+    "display_title": "Animais Fantásticos e Onde Habitam",
+    "aliases": ["Animais Fantásticos e Onde Habitam", "Fantastic Beasts and Where to Find Them"]
+  },
+  {
+    "display_title": "Animais Fantásticos: Os Crimes de Grindelwald",
+    "aliases": ["Animais Fantásticos Os Crimes de Grindelwald", "Fantastic Beasts The Crimes of Grindelwald"]
+  },
+  {
+    "display_title": "Animais Fantásticos: Os Segredos de Dumbledore",
+    "aliases": ["Animais Fantásticos Os Segredos de Dumbledore", "Fantastic Beasts The Secrets of Dumbledore"]
+  },
+  {
+    "display_title": "O Hobbit: Uma Jornada Inesperada",
+    "aliases": ["O Hobbit Uma Jornada Inesperada", "The Hobbit An Unexpected Journey"]
+  },
+  {
+    "display_title": "O Hobbit: A Desolação de Smaug",
+    "aliases": ["O Hobbit A Desolação de Smaug", "The Hobbit The Desolation of Smaug"]
+  },
+  {
+    "display_title": "O Hobbit: A Batalha dos Cinco Exércitos",
+    "aliases": ["O Hobbit A Batalha dos Cinco Exércitos", "The Hobbit The Battle of the Five Armies"]
+  },
+  {
+    "display_title": "O Senhor dos Anéis: As Duas Torres",
+    "aliases": ["O Senhor dos Anéis As Duas Torres", "The Lord of the Rings The Two Towers"]
+  },
+  {
+    "display_title": "O Senhor dos Anéis: O Retorno do Rei",
+    "aliases": ["O Senhor dos Anéis O Retorno do Rei", "The Lord of the Rings The Return of the King"]
+  },
+  {
+    "display_title": "Piratas do Caribe: A Maldição do Pérola Negra",
+    "aliases": ["Piratas do Caribe A Maldição do Pérola Negra", "Pirates of the Caribbean The Curse of the Black Pearl"]
+  },
+  {
+    "display_title": "Piratas do Caribe: O Baú da Morte",
+    "aliases": ["Piratas do Caribe O Baú da Morte", "Pirates of the Caribbean Dead Man's Chest"]
+  },
+  {
+    "display_title": "Piratas do Caribe: No Fim do Mundo",
+    "aliases": ["Piratas do Caribe No Fim do Mundo", "Pirates of the Caribbean At World's End"]
+  },
+  {
+    "display_title": "Piratas do Caribe: Navegando em Águas Misteriosas",
+    "aliases": ["Piratas do Caribe Navegando em Águas Misteriosas", "Pirates of the Caribbean On Stranger Tides"]
+  },
+  {
+    "display_title": "Piratas do Caribe: A Vingança de Salazar",
+    "aliases": ["Piratas do Caribe A Vingança de Salazar", "Pirates of the Caribbean Dead Men Tell No Tales"]
+  },
+  {
+    "display_title": "Mad Max: Estrada da Fúria",
+    "aliases": ["Mad Max Estrada da Fúria", "Mad Max Fury Road"]
+  },
+  {
+    "display_title": "Duna",
+    "aliases": ["Duna", "Dune"]
+  },
+  {
+    "display_title": "Duna: Parte 2",
+    "aliases": ["Duna Parte 2", "Dune Part Two"]
+  },
+  {
+    "display_title": "Oppenheimer",
+    "aliases": ["Oppenheimer"]
+  },
+  {
+    "display_title": "Barbie",
+    "aliases": ["Barbie"]
+  },
+  {
+    "display_title": "Missão: Impossível - Efeito Fallout",
+    "aliases": ["Missão Impossível Efeito Fallout", "Mission Impossible Fallout"]
+  },
+  {
+    "display_title": "Missão: Impossível - Acerto de Contas Parte 1",
+    "aliases": ["Missão Impossível Acerto de Contas Parte 1", "Mission Impossible Dead Reckoning Part One"]
+  },
+  {
+    "display_title": "John Wick",
+    "aliases": ["John Wick", "De Volta ao Jogo"]
+  },
+  {
+    "display_title": "John Wick: Um Novo Dia para Matar",
+    "aliases": ["John Wick Um Novo Dia para Matar", "John Wick Chapter 2"]
+  },
+  {
+    "display_title": "John Wick 3: Parabellum",
+    "aliases": ["John Wick 3 Parabellum", "John Wick Chapter 3 Parabellum"]
+  },
+  {
+    "display_title": "John Wick 4: Baba Yaga",
+    "aliases": ["John Wick 4 Baba Yaga", "John Wick Chapter 4"]
+  },
+  {
+    "display_title": "007 - Cassino Royale",
+    "aliases": ["007 Cassino Royale", "James Bond Casino Royale"]
+  },
+  {
+    "display_title": "007 - Quantum of Solace",
+    "aliases": ["007 Quantum of Solace", "James Bond Quantum of Solace"]
+  },
+  {
+    "display_title": "007 - Operação Skyfall",
+    "aliases": ["007 Operação Skyfall", "James Bond Skyfall"]
+  },
+  {
+    "display_title": "007 - Contra Spectre",
+    "aliases": ["007 Contra Spectre", "James Bond Spectre"]
+  },
+  {
+    "display_title": "007 - Sem Tempo para Morrer",
+    "aliases": ["007 Sem Tempo para Morrer", "James Bond No Time to Die"]
+  },
+  {
+    "display_title": "Indiana Jones e os Caçadores da Arca Perdida",
+    "aliases": ["Indiana Jones e os Caçadores da Arca Perdida", "Indiana Jones and the Raiders of the Lost Ark"]
+  },
+  {
+    "display_title": "Indiana Jones e o Templo da Perdição",
+    "aliases": ["Indiana Jones e o Templo da Perdição", "Indiana Jones and the Temple of Doom"]
+  },
+  {
+    "display_title": "Indiana Jones e a Última Cruzada",
+    "aliases": ["Indiana Jones e a Última Cruzada", "Indiana Jones and the Last Crusade"]
+  },
+  {
+    "display_title": "Indiana Jones e o Reino da Caveira de Cristal",
+    "aliases": ["Indiana Jones e o Reino da Caveira de Cristal", "Indiana Jones and the Kingdom of the Crystal Skull"]
+  },
+  {
+    "display_title": "Indiana Jones e a Relíquia do Destino",
+    "aliases": ["Indiana Jones e a Relíquia do Destino", "Indiana Jones and the Dial of Destiny"]
+  },
+  {
+    "display_title": "Matrix Reloaded",
+    "aliases": ["Matrix Reloaded", "The Matrix Reloaded"]
+  },
+  {
+    "display_title": "Matrix Revolutions",
+    "aliases": ["Matrix Revolutions", "The Matrix Revolutions"]
+  },
+  {
+    "display_title": "Matrix Resurrections",
+    "aliases": ["Matrix Resurrections", "The Matrix Resurrections"]
+  },
+  {
+    "display_title": "Jurassic World",
+    "aliases": ["Jurassic World", "Jurassic World: O Mundo dos Dinossauros"]
+  },
+  {
+    "display_title": "Jurassic World: Reino Ameaçado",
+    "aliases": ["Jurassic World Reino Ameaçado", "Jurassic World Fallen Kingdom"]
+  },
+  {
+    "display_title": "Jurassic World: Domínio",
+    "aliases": ["Jurassic World Domínio", "Jurassic World Dominion"]
+  },
+  {
+    "display_title": "Velozes e Furiosos",
+    "aliases": ["Velozes e Furiosos", "The Fast and the Furious"]
+  },
+  {
+    "display_title": "Mais Velozes Mais Furiosos",
+    "aliases": ["Mais Velozes Mais Furiosos", "2 Fast 2 Furious"]
+  },
+  {
+    "display_title": "Velozes e Furiosos: Desafio em Tóquio",
+    "aliases": ["Velozes e Furiosos Desafio em Tóquio", "The Fast and the Furious Tokyo Drift"]
+  },
+  {
+    "display_title": "Velozes e Furiosos 4",
+    "aliases": ["Velozes e Furiosos 4", "Fast & Furious"]
+  },
+  {
+    "display_title": "Velozes e Furiosos 5: Operação Rio",
+    "aliases": ["Velozes e Furiosos 5 Operação Rio", "Fast Five"]
+  },
+  {
+    "display_title": "Velozes e Furiosos 6",
+    "aliases": ["Velozes e Furiosos 6", "Fast & Furious 6"]
+  },
+  {
+    "display_title": "Velozes e Furiosos 7",
+    "aliases": ["Velozes e Furiosos 7", "Furious 7"]
+  },
+  {
+    "display_title": "Velozes e Furiosos 8",
+    "aliases": ["Velozes e Furiosos 8", "The Fate of the Furious"]
+  },
+  {
+    "display_title": "Velozes e Furiosos: Hobbs & Shaw",
+    "aliases": ["Velozes e Furiosos Hobbs & Shaw", "Fast & Furious Presents Hobbs & Shaw"]
+  },
+  {
+    "display_title": "Velozes e Furiosos 9",
+    "aliases": ["Velozes e Furiosos 9", "F9 The Fast Saga"]
+  },
+  {
+    "display_title": "Velozes e Furiosos 10",
+    "aliases": ["Velozes e Furiosos 10", "Fast X"]
+  },
+  {
+    "display_title": "Rocky",
+    "aliases": ["Rocky"]
+  },
+  {
+    "display_title": "Rocky II: A Revanche",
+    "aliases": ["Rocky II A Revanche", "Rocky II"]
+  },
+  {
+    "display_title": "Rocky III: O Desafio Supremo",
+    "aliases": ["Rocky III O Desafio Supremo", "Rocky III"]
+  },
+  {
+    "display_title": "Rocky IV",
+    "aliases": ["Rocky IV"]
+  },
+  {
+    "display_title": "Rocky V",
+    "aliases": ["Rocky V"]
+  },
+  {
+    "display_title": "Rocky Balboa",
+    "aliases": ["Rocky Balboa"]
+  },
+  {
+    "display_title": "Creed: Nascido para Lutar",
+    "aliases": ["Creed Nascido para Lutar", "Creed"]
+  },
+  {
+    "display_title": "Creed II",
+    "aliases": ["Creed II"]
+  },
+  {
+    "display_title": "Creed III",
+    "aliases": ["Creed III"]
+  },
+  {
+    "display_title": "Se Beber, Não Case!",
+    "aliases": ["Se Beber Não Case!", "The Hangover"]
+  },
+  {
+    "display_title": "Se Beber, Não Case! Parte II",
+    "aliases": ["Se Beber Não Case! Parte II", "The Hangover Part II"]
+  },
+  {
+    "display_title": "Se Beber, Não Case! Parte III",
+    "aliases": ["Se Beber Não Case! Parte III", "The Hangover Part III"]
+  },
+  {
+    "display_title": "Minha Mãe é uma Peça",
+    "aliases": ["Minha Mãe é uma Peça"]
+  },
+  {
+    "display_title": "Minha Mãe é uma Peça 2",
+    "aliases": ["Minha Mãe é uma Peça 2"]
+  },
+  {
+    "display_title": "Minha Mãe é uma Peça 3",
+    "aliases": ["Minha Mãe é uma Peça 3"]
+  },
+  {
+    "display_title": "A Bela e a Fera",
+    "aliases": ["A Bela e a Fera", "Beauty and the Beast"]
+  },
+  {
+    "display_title": "Aladdin",
+    "aliases": ["Aladdin"]
+  },
+  {
+    "display_title": "Aladdin (2019)",
+    "aliases": ["Aladdin 2019", "Aladdin (2019)", "Aladdin Live Action"]
+  },
+  {
+    "display_title": "A Pequena Sereia",
+    "aliases": ["A Pequena Sereia", "The Little Mermaid"]
+  },
+  {
+    "display_title": "A Pequena Sereia (2023)",
+    "aliases": ["A Pequena Sereia 2023", "The Little Mermaid (2023)", "A Pequena Sereia Live Action"]
+  },
+  {
+    "display_title": "Mulan",
+    "aliases": ["Mulan"]
+  },
+  {
+    "display_title": "Mulan (2020)",
+    "aliases": ["Mulan 2020", "Mulan (2020)", "Mulan Live Action"]
+  },
+  {
+    "display_title": "Cinderela",
+    "aliases": ["Cinderela", "Cinderella"]
+  },
+  {
+    "display_title": "Malévola",
+    "aliases": ["Malévola", "Maleficent"]
+  },
+  {
+    "display_title": "Malévola: Dona do Mal",
+    "aliases": ["Malévola Dona do Mal", "Maleficent Mistress of Evil"]
+  },
+  {
+    "display_title": "Moana",
+    "aliases": ["Moana"]
+  },
+  {
+    "display_title": "Encanto",
+    "aliases": ["Encanto"]
+  },
+  {
+    "display_title": "Valente",
+    "aliases": ["Valente", "Brave"]
+  },
+  {
+    "display_title": "Luca",
+    "aliases": ["Luca"]
+  },
+  {
+    "display_title": "Soul",
+    "aliases": ["Soul"]
+  },
+  {
+    "display_title": "Ratatouille",
+    "aliases": ["Ratatouille"]
+  },
+  {
+    "display_title": "Os Croods",
+    "aliases": ["Os Croods", "The Croods"]
+  },
+  {
+    "display_title": "Os Croods 2: Uma Nova Era",
+    "aliases": ["Os Croods 2 Uma Nova Era", "The Croods A New Age"]
+  },
+  {
+    "display_title": "Como Treinar o seu Dragão",
+    "aliases": ["Como Treinar o seu Dragão", "How to Train Your Dragon"]
+  },
+  {
+    "display_title": "Como Treinar o seu Dragão 2",
+    "aliases": ["Como Treinar o seu Dragão 2", "How to Train Your Dragon 2"]
+  },
+  {
+    "display_title": "Como Treinar o seu Dragão 3",
+    "aliases": ["Como Treinar o seu Dragão 3", "How to Train Your Dragon The Hidden World"]
+  },
+  {
+    "display_title": "Shrek",
+    "aliases": ["Shrek"]
+  },
+  {
+    "display_title": "Shrek 2",
+    "aliases": ["Shrek 2"]
+  },
+  {
+    "display_title": "Shrek Terceiro",
+    "aliases": ["Shrek Terceiro", "Shrek the Third"]
+  },
+  {
+    "display_title": "Shrek Para Sempre",
+    "aliases": ["Shrek Para Sempre", "Shrek Forever After"]
+  },
+  {
+    "display_title": "Gato de Botas",
+    "aliases": ["Gato de Botas", "Puss in Boots"]
+  },
+  {
+    "display_title": "Gato de Botas 2: O Último Pedido",
+    "aliases": ["Gato de Botas 2 O Último Pedido", "Puss in Boots The Last Wish"]
+  },
+  {
+    "display_title": "Madagascar",
+    "aliases": ["Madagascar"]
+  },
+  {
+    "display_title": "Madagascar 2: A Grande Escapada",
+    "aliases": ["Madagascar 2 A Grande Escapada", "Madagascar Escape 2 Africa"]
+  },
+  {
+    "display_title": "Madagascar 3: Os Procurados",
+    "aliases": ["Madagascar 3 Os Procurados", "Madagascar 3 Europe's Most Wanted"]
+  },
+  {
+    "display_title": "Kung Fu Panda",
+    "aliases": ["Kung Fu Panda"]
+  },
+  {
+    "display_title": "Kung Fu Panda 2",
+    "aliases": ["Kung Fu Panda 2"]
+  },
+  {
+    "display_title": "Kung Fu Panda 3",
+    "aliases": ["Kung Fu Panda 3"]
+  },
+  {
+    "display_title": "Kung Fu Panda 4",
+    "aliases": ["Kung Fu Panda 4"]
+  },
+  {
+    "display_title": "Megamente",
+    "aliases": ["Megamente", "Megamind"]
+  },
+  {
+    "display_title": "Os Pinguins de Madagascar",
+    "aliases": ["Os Pinguins de Madagascar", "Penguins of Madagascar"]
+  },
+  {
+    "display_title": "O Espanta Tubarões",
+    "aliases": ["O Espanta Tubarões", "Shark Tale"]
+  },
+  {
+    "display_title": "Bee Movie: A História de uma Abelha",
+    "aliases": ["Bee Movie A História de uma Abelha", "Bee Movie"]
+  },
+  {
+    "display_title": "Trolls",
+    "aliases": ["Trolls"]
+  },
+  {
+    "display_title": "Trolls 2",
+    "aliases": ["Trolls 2", "Trolls World Tour"]
+  },
+  {
+    "display_title": "Minions",
+    "aliases": ["Minions"]
+  },
+  {
+    "display_title": "Minions 2: A Origem de Gru",
+    "aliases": ["Minions 2 A Origem de Gru", "Minions The Rise of Gru"]
+  },
+  {
+    "display_title": "Meu Malvado Favorito",
+    "aliases": ["Meu Malvado Favorito", "Despicable Me"]
+  },
+  {
+    "display_title": "Meu Malvado Favorito 2",
+    "aliases": ["Meu Malvado Favorito 2", "Despicable Me 2"]
+  },
+  {
+    "display_title": "Meu Malvado Favorito 3",
+    "aliases": ["Meu Malvado Favorito 3", "Despicable Me 3"]
+  },
+  {
+    "display_title": "Meu Malvado Favorito 4",
+    "aliases": ["Meu Malvado Favorito 4", "Despicable Me 4"]
+  },
+  {
+    "display_title": "Pets: A Vida Secreta dos Bichos",
+    "aliases": ["Pets A Vida Secreta dos Bichos", "The Secret Life of Pets"]
+  },
+  {
+    "display_title": "Pets: A Vida Secreta dos Bichos 2",
+    "aliases": ["Pets A Vida Secreta dos Bichos 2", "The Secret Life of Pets 2"]
+  },
+  {
+    "display_title": "Sing: Quem Canta seus Males Espanta",
+    "aliases": ["Sing Quem Canta seus Males Espanta", "Sing"]
+  },
+  {
+    "display_title": "Sing 2",
+    "aliases": ["Sing 2"]
+  },
+  {
+    "display_title": "Detona Ralph",
+    "aliases": ["Detona Ralph", "Wreck-It Ralph"]
+  },
+  {
+    "display_title": "WiFi Ralph: Quebrando a Internet",
+    "aliases": ["WiFi Ralph Quebrando a Internet", "Ralph Breaks the Internet"]
+  },
+  {
+    "display_title": "Os Simpsons: O Filme",
+    "aliases": ["Os Simpsons O Filme", "The Simpsons Movie"]
+  },
+  {
+    "display_title": "Uma Aventura Lego",
+    "aliases": ["Uma Aventura Lego", "The Lego Movie"]
+  },
+  {
+    "display_title": "Uma Aventura Lego 2",
+    "aliases": ["Uma Aventura Lego 2", "The Lego Movie 2 The Second Part"]
+  },
+  {
+    "display_title": "Homem-Aranha: No Aranhaverso",
+    "aliases": ["Homem-Aranha No Aranhaverso", "Spider-Man Into the Spider-Verse"]
+  },
+  {
+    "display_title": "Homem-Aranha: Através do Aranhaverso",
+    "aliases": ["Homem-Aranha Através do Aranhaverso", "Spider-Man Across the Spider-Verse"]
+  },
+  {
+    "display_title": "O Castelo Animado",
+    "aliases": ["O Castelo Animado", "Howl's Moving Castle"]
+  },
+  {
+    "display_title": "Meu Amigo Totoro",
+    "aliases": ["Meu Amigo Totoro", "My Neighbor Totoro", "Tonari no Totoro"]
+  },
+  {
+    "display_title": "Princesa Mononoke",
+    "aliases": ["Princesa Mononoke", "Princess Mononoke", "Mononoke Hime"]
+  },
+  {
+    "display_title": "O Serviço de Entregas da Kiki",
+    "aliases": ["O Serviço de Entregas da Kiki", "Kiki's Delivery Service", "Majo no Takkyubin"]
+  },
+  {
+    "display_title": "Ponyo: Uma Amizade que Veio do Mar",
+    "aliases": ["Ponyo Uma Amizade que Veio do Mar", "Ponyo", "Gake no Ue no Ponyo"]
+  },
+  {
+    "display_title": "O Conto da Princesa Kaguya",
+    "aliases": ["O Conto da Princesa Kaguya", "The Tale of the Princess Kaguya", "Kaguya-hime no Monogatari"]
+  },
+  {
+    "display_title": "Vidas ao Vento",
+    "aliases": ["Vidas ao Vento", "The Wind Rises", "Kaze Tachinu"]
+  },
+  {
+    "display_title": "Akira",
+    "aliases": ["Akira"]
+  },
+  {
+    "display_title": "Ghost in the Shell",
+    "aliases": ["Ghost in the Shell", "O Fantasma do Futuro"]
+  },
+  {
+    "display_title": "Perfect Blue",
+    "aliases": ["Perfect Blue"]
+  },
+  {
+    "display_title": "Paprika",
+    "aliases": ["Paprika"]
+  },
+  {
+    "display_title": "Coraline e o Mundo Secreto",
+    "aliases": ["Coraline e o Mundo Secreto", "Coraline"]
+  },
+  {
+    "display_title": "O Estranho Mundo de Jack",
+    "aliases": ["O Estranho Mundo de Jack", "The Nightmare Before Christmas"]
+  },
+  {
+    "display_title": "Frankenweenie",
+    "aliases": ["Frankenweenie"]
+  },
+  {
+    "display_title": "Noiva Cadáver",
+    "aliases": ["Noiva Cadáver", "Corpse Bride"]
+  },
+  {
+    "display_title": "Hotel Transilvânia",
+    "aliases": ["Hotel Transilvânia", "Hotel Transylvania"]
+  },
+  {
+    "display_title": "Hotel Transilvânia 2",
+    "aliases": ["Hotel Transilvânia 2", "Hotel Transylvania 2"]
+  },
+  {
+    "display_title": "Hotel Transilvânia 3: Férias Monstruosas",
+    "aliases": ["Hotel Transilvânia 3 Férias Monstruosas", "Hotel Transylvania 3 Summer Vacation"]
+  },
+  {
+    "display_title": "Hotel Transilvânia: Transformonstrão",
+    "aliases": ["Hotel Transilvânia Transformonstrão", "Hotel Transylvania Transformania"]
+  },
+  {
+    "display_title": "A Família Addams",
+    "aliases": ["A Família Addams", "The Addams Family"]
+  },
+  {
+    "display_title": "A Família Addams 2: Pé na Estrada",
+    "aliases": ["A Família Addams 2 Pé na Estrada", "The Addams Family 2"]
+  },
+  {
+    "display_title": "Os Flintstones",
+    "aliases": ["Os Flintstones", "The Flintstones"]
+  },
+  {
+    "display_title": "Scooby-Doo",
+    "aliases": ["Scooby-Doo"]
+  },
+  {
+    "display_title": "Scooby-Doo 2: Monstros à Solta",
+    "aliases": ["Scooby-Doo 2 Monstros à Solta", "Scooby-Doo 2 Monsters Unleashed"]
+  },
+  {
+    "display_title": "Tom e Jerry: O Filme",
+    "aliases": ["Tom e Jerry O Filme", "Tom & Jerry The Movie"]
+  },
+  {
+    "display_title": "Space Jam: O Jogo do Século",
+    "aliases": ["Space Jam O Jogo do Século", "Space Jam"]
+  },
+  {
+    "display_title": "Space Jam: Um Novo Legado",
+    "aliases": ["Space Jam Um Novo Legado", "Space Jam A New Legacy"]
+  },
+  {
+    "display_title": "Paddington",
+    "aliases": ["Paddington"]
+  },
+  {
+    "display_title": "Paddington 2",
+    "aliases": ["Paddington 2"]
+  },
+  {
+    "display_title": "Peter Rabbit",
+    "aliases": ["Peter Rabbit", "Pedro Coelho"]
+  },
+  {
+    "display_title": "Peter Rabbit 2: O Fugitivo",
+    "aliases": ["Peter Rabbit 2 O Fugitivo", "Pedro Coelho 2"]
+  },
+  {
+    "display_title": "Clifford: O Gigante Cão Vermelho",
+    "aliases": ["Clifford O Gigante Cão Vermelho", "Clifford the Big Red Dog"]
+  },
+  {
+    "display_title": "Encantada",
+    "aliases": ["Encantada", "Enchanted"]
+  },
+  {
+    "display_title": "Desencantada",
+    "aliases": ["Desencantada", "Disenchanted"]
+  },
+  {
+    "display_title": "Alice no País das Maravilhas",
+    "aliases": ["Alice no País das Maravilhas", "Alice in Wonderland"]
+  },
+  {
+    "display_title": "Alice Através do Espelho",
+    "aliases": ["Alice Através do Espelho", "Alice Through the Looking Glass"]
+  },
+  {
+    "display_title": "Peter Pan",
+    "aliases": ["Peter Pan"]
+  },
+  {
+    "display_title": "Peter Pan & Wendy",
+    "aliases": ["Peter Pan & Wendy"]
+  },
+  {
+    "display_title": "Pinóquio",
+    "aliases": ["Pinóquio", "Pinocchio"]
+  },
+  {
+    "display_title": "Pinóquio de Guillermo del Toro",
+    "aliases": ["Pinóquio de Guillermo del Toro", "Guillermo del Toro's Pinocchio"]
+  },
+  {
+    "display_title": "Robin Hood",
+    "aliases": ["Robin Hood"]
+  },
+  {
+    "display_title": "Tarzan",
+    "aliases": ["Tarzan"]
+  },
+  {
+    "display_title": "Hércules",
+    "aliases": ["Hércules", "Hercules"]
+  },
+  {
+    "display_title": "Pocahontas",
+    "aliases": ["Pocahontas"]
+  },
+  {
+    "display_title": "O Corcunda de Notre Dame",
+    "aliases": ["O Corcunda de Notre Dame", "The Hunchback of Notre Dame"]
+  },
+  {
+    "display_title": "Atlantis: O Reino Perdido",
+    "aliases": ["Atlantis O Reino Perdido", "Atlantis The Lost Empire"]
+  },
+  {
+    "display_title": "Irmão Urso",
+    "aliases": ["Irmão Urso", "Brother Bear"]
+  },
+  {
+    "display_title": "O Galinho Chicken Little",
+    "aliases": ["O Galinho Chicken Little", "Chicken Little"]
+  },
+  {
+    "display_title": "Bolt: Supercão",
+    "aliases": ["Bolt Supercão", "Bolt"]
+  },
+  {
+    "display_title": "Zé Colmeia: O Filme",
+    "aliases": ["Zé Colmeia O Filme", "Yogi Bear"]
+  },
+  {
+    "display_title": "Rio",
+    "aliases": ["Rio"]
+  },
+  {
+    "display_title": "Rio 2",
+    "aliases": ["Rio 2"]
+  },
+  {
+    "display_title": "Era do Gelo",
+    "aliases": ["Era do Gelo", "Ice Age"]
+  },
+  {
+    "display_title": "Era do Gelo 2",
+    "aliases": ["Era do Gelo 2", "Ice Age The Meltdown"]
+  },
+  {
+    "display_title": "Era do Gelo 3: Despertar dos Dinossauros",
+    "aliases": ["Era do Gelo 3 Despertar dos Dinossauros", "Ice Age Dawn of the Dinosaurs"]
+  },
+  {
+    "display_title": "Era do Gelo 4: Deriva Continental",
+    "aliases": ["Era do Gelo 4 Deriva Continental", "Ice Age Continental Drift"]
+  },
+  {
+    "display_title": "Era do Gelo: O Big Bang",
+    "aliases": ["Era do Gelo O Big Bang", "Ice Age Collision Course"]
+  },
+  {
+    "display_title": "O Touro Ferdinando",
+    "aliases": ["O Touro Ferdinando", "Ferdinand"]
+  },
+  {
+    "display_title": "O Lorax: Em Busca da Trúfula Perdida",
+    "aliases": ["O Lorax Em Busca da Trúfula Perdida", "The Lorax"]
+  },
+  {
+    "display_title": "O Pequeno Príncipe",
+    "aliases": ["O Pequeno Príncipe", "The Little Prince"]
+  },
+  {
+    "display_title": "Matilda",
+    "aliases": ["Matilda"]
+  },
+  {
+    "display_title": "Matilda: O Musical",
+    "aliases": ["Matilda O Musical", "Matilda The Musical"]
+  },
+  {
+    "display_title": "Charlie e a Fantástica Fábrica de Chocolate",
+    "aliases": ["Charlie e a Fantástica Fábrica de Chocolate", "Charlie and the Chocolate Factory"]
+  },
+  {
+    "display_title": "A Fantástica Fábrica de Chocolate",
+    "aliases": ["A Fantástica Fábrica de Chocolate", "Willy Wonka & the Chocolate Factory"]
+  },
+  {
+    "display_title": "Wonka",
+    "aliases": ["Wonka"]
+  },
+  {
+    "display_title": "Nanny McPhee: A Babá Encantada",
+    "aliases": ["Nanny McPhee A Babá Encantada", "Nanny McPhee"]
+  },
+  {
+    "display_title": "Nanny McPhee e as Lições Mágicas",
+    "aliases": ["Nanny McPhee e as Lições Mágicas", "Nanny McPhee and the Big Bang"]
+  },
+  {
+    "display_title": "As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa",
+    "aliases": ["As Crônicas de Nárnia O Leão a Feiticeira e o Guarda-Roupa", "The Chronicles of Narnia The Lion the Witch and the Wardrobe"]
+  },
+  {
+    "display_title": "As Crônicas de Nárnia: Príncipe Caspian",
+    "aliases": ["As Crônicas de Nárnia Príncipe Caspian", "The Chronicles of Narnia Prince Caspian"]
+  },
+  {
+    "display_title": "As Crônicas de Nárnia: A Viagem do Peregrino da Alvorada",
+    "aliases": ["As Crônicas de Nárnia A Viagem do Peregrino da Alvorada", "The Chronicles of Narnia The Voyage of the Dawn Treader"]
+  },
+  {
+    "display_title": "O Bom Dinossauro",
+    "aliases": ["O Bom Dinossauro", "The Good Dinosaur"]
+  },
+  {
+    "display_title": "Planeta 51",
+    "aliases": ["Planeta 51", "Planet 51"]
+  },
+  {
+    "display_title": "Tá Chovendo Hambúrguer",
+    "aliases": ["Tá Chovendo Hambúrguer", "Cloudy with a Chance of Meatballs"]
+  },
+  {
+    "display_title": "Tá Chovendo Hambúrguer 2",
+    "aliases": ["Tá Chovendo Hambúrguer 2", "Cloudy with a Chance of Meatballs 2"]
+  },
+  {
+    "display_title": "O Poderoso Chefinho",
+    "aliases": ["O Poderoso Chefinho", "The Boss Baby"]
+  },
+  {
+    "display_title": "O Poderoso Chefinho 2: Negócios da Família",
+    "aliases": ["O Poderoso Chefinho 2 Negócios da Família", "The Boss Baby Family Business"]
+  },
+  {
+    "display_title": "Os Smurfs",
+    "aliases": ["Os Smurfs", "The Smurfs"]
+  },
+  {
+    "display_title": "Os Smurfs 2",
+    "aliases": ["Os Smurfs 2", "The Smurfs 2"]
+  },
+  {
+    "display_title": "Os Smurfs e a Vila Perdida",
+    "aliases": ["Os Smurfs e a Vila Perdida", "Smurfs The Lost Village"]
+  },
+  {
+    "display_title": "As Aventuras de Tintim",
+    "aliases": ["As Aventuras de Tintim", "The Adventures of Tintin"]
+  },
+  {
+    "display_title": "Astro Boy",
+    "aliases": ["Astro Boy"]
+  },
+  {
+    "display_title": "Speed Racer",
+    "aliases": ["Speed Racer"]
+  },
+  {
+    "display_title": "Ben 10: Invasão Alienígena",
+    "aliases": ["Ben 10 Invasão Alienígena", "Ben 10 Alien Swarm"]
+  },
+  {
+    "display_title": "Pokémon: O Filme",
+    "aliases": ["Pokémon O Filme", "Pokémon The First Movie"]
+  },
+  {
+    "display_title": "Pokémon: Detetive Pikachu",
+    "aliases": ["Pokémon Detetive Pikachu", "Pokémon Detective Pikachu"]
+  },
+  {
+    "display_title": "Digimon: O Filme",
+    "aliases": ["Digimon O Filme", "Digimon The Movie"]
+  },
+  {
+    "display_title": "Dragon Ball Super: Broly",
+    "aliases": ["Dragon Ball Super Broly"]
+  },
+  {
+    "display_title": "Dragon Ball Super: Super Hero",
+    "aliases": ["Dragon Ball Super Super Hero"]
+  },
+  {
+    "display_title": "One Piece Film: Red",
+    "aliases": ["One Piece Film Red"]
+  },
+  {
+    "display_title": "Naruto: O Filme - O Guardião do Reino da Lua Crescente",
+    "aliases": ["Naruto O Filme O Guardião do Reino da Lua Crescente", "Naruto The Movie Guardians of the Crescent Moon Kingdom"]
+  },
+  {
+    "display_title": "My Hero Academia: Ascensão dos Heróis",
+    "aliases": ["My Hero Academia Ascensão dos Heróis", "My Hero Academia Heroes Rising"]
+  },
+  {
+    "display_title": "My Hero Academia: Missão Mundial de Heróis",
+    "aliases": ["My Hero Academia Missão Mundial de Heróis", "My Hero Academia World Heroes Mission"]
+  },
+  {
+    "display_title": "Sonic: O Filme",
+    "aliases": ["Sonic O Filme", "Sonic the Hedgehog"]
+  },
+  {
+    "display_title": "Sonic 2: O Filme",
+    "aliases": ["Sonic 2 O Filme", "Sonic the Hedgehog 2"]
+  },
+  {
+    "display_title": "Super Mario Bros. O Filme",
+    "aliases": ["Super Mario Bros O Filme", "The Super Mario Bros Movie"]
+  },
+  {
+    "display_title": "Detetive Conan: O Punho da Safira Azul",
+    "aliases": ["Detetive Conan O Punho da Safira Azul", "Detective Conan The Fist of Blue Sapphire"]
+  },
+  {
+    "display_title": "Dora e a Cidade Perdida",
+    "aliases": ["Dora e a Cidade Perdida", "Dora and the Lost City of Gold"]
+  },
+  {
+    "display_title": "Angry Birds: O Filme",
+    "aliases": ["Angry Birds O Filme", "The Angry Birds Movie"]
+  },
+  {
+    "display_title": "Angry Birds 2: O Filme",
+    "aliases": ["Angry Birds 2 O Filme", "The Angry Birds Movie 2"]
+  },
+  {
+    "display_title": "Capitão Cueca: O Filme",
+    "aliases": ["Capitão Cueca O Filme", "Captain Underpants The First Epic Movie"]
   }
+
 ]

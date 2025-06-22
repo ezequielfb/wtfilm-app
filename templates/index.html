@@ -4,36 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WTFilm - Adivinhe o Filme</title>
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <div class="container">
-        <h1>WTFilm</h1>
-        <h2>Adivinhe o Filme</h2> <p id="synopsis">Carregando um novo desafio...</p>
-        <div class="input-area">
-            <input type="text" id="guess-input" placeholder="Qual o nome do filme?">
-            <button id="guess-button" aria-label="Adivinhar"></button>
-        </div>
-        <div id="result-area">
-            <p id="feedback-message"></p>
-        </div>
-        <button id="skip-button">Pular</button>
-        <div id="history-container">
-            <div class="history-column" id="wrong-list">
-                <h3>Errados / Pulados</h3>
-                <ul></ul>
+
+    <!-- <<< MUDANÇA: Um wrapper que engloba TUDO relacionado ao jogo >>> -->
+    <div id="game-wrapper">
+
+        <h1>WTF...ilme</h1>
+
+        <div class="container">
+            <h2>Adivinhe o Filme</h2>
+
+            <p id="synopsis">Carregando um novo desafio...</p>
+            
+            <button id="new-synopsis-button" class="link-button hidden">Nova descrição</button>
+
+            <div class="input-area">
+                <input type="text" id="guess-input" placeholder="Qual o nome do filme?">
+                <button id="guess-button" aria-label="Adivinhar"></button>
             </div>
-            <div class="history-column" id="correct-list">
-                <h3>Acertos</h3>
-                <ul></ul>
+            
+            <div id="feedback-area">
+                <p id="main-feedback"></p>
+                <small id="sub-feedback"></small>
+            </div>
+            
+            <button id="skip-button" class="link-button">Pular</button>
+
+            <div id="history-container">
+                <div class="history-column" id="wrong-list">
+                    <h3>Erros</h3>
+                    <ul></ul>
+                </div>
+                <div class="history-column" id="correct-list">
+                    <h3>Acertos</h3>
+                    <ul></ul>
+                </div>
             </div>
         </div>
-    </div>
+
+    </div> <!-- <<< Fim do game-wrapper >>> -->
+
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
