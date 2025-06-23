@@ -8,11 +8,11 @@ from flask import Blueprint, render_template, jsonify, request, session
 from thefuzz import fuzz
 
 # Importando as variáveis que antes eram globais no app.py
-# Faremos o app passar essas variáveis para o blueprint
+# o app passa essas variáveis para o blueprint
 from flask import current_app
 
 # 1. Criação do Blueprint
-# 'game_bp' é o nome que daremos a este conjunto de rotas.
+# 'game_bp' é o nome que darei a este conjunto de rotas.
 # __name__ ajuda o Flask a localizar o blueprint.
 # template_folder='../../templates' diz onde encontrar os templates HTML a partir deste arquivo.
 game_bp = Blueprint(
@@ -21,7 +21,7 @@ game_bp = Blueprint(
     static_folder='../../static'
 )
 
-# Funções auxiliares que agora pertencem a este blueprint
+# Funções auxiliares que agora pertencem a esse blueprint
 def normalize_string(text):
     import unicodedata
     import re
@@ -37,7 +37,7 @@ def process_and_sanitize_text(text):
     safe_html = bleach.clean(html, tags=allowed_tags, strip=True)
     return safe_html
 
-# 2. As rotas agora usam @game_bp.route() em vez de @app.route()
+# As rotas agora usam @game_bp.route() em vez de @app.route()
 @game_bp.route('/')
 def index():
     session.clear()

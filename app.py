@@ -6,37 +6,35 @@ from flask import Flask
 import google.generativeai as genai
 from dotenv import load_dotenv
 
+# A função create_app() permanece exatamente a mesma
 def create_app():
     """Cria e configura a instância do aplicativo Flask."""
     load_dotenv()
     
     app = Flask(__name__, instance_relative_config=True)
     
-    # Configuração de chaves e variáveis de ambiente
     app.config.from_mapping(
         SECRET_KEY=os.getenv("FLASK_SECRET_KEY"),
         GEMINI_API_KEY=os.getenv("GEMINI_API_KEY")
     )
 
-    # Configuração do modelo Gemini
     if app.config['GEMINI_API_KEY']:
         genai.configure(api_key=app.config['GEMINI_API_KEY'])
         app.config['GEMINI_MODEL'] = genai.GenerativeModel('gemini-1.5-flash')
     else:
         app.config['GEMINI_MODEL'] = None
 
-    # Carrega os dados dos filmes e os prompts na configuração do app
     try:
         with open('movies.json', 'r', encoding='utf-8') as f:
             app.config['MASTER_LOCAL_MOVIES'] = json.load(f)
     except FileNotFoundError:
-        app.config['MASTER_LOCAL_MOVIES'] = [{"title": "Erro", "synopsis": "Arquivo movies.json não encontrado."}]
+        app.config['MASTER_LOCAL_MOVIES'] = [] # Mudança para lista vazia em caso de erro
     
     try:
         with open('movie_database.json', 'r', encoding='utf-8') as f:
             app.config['MASTER_TITLES_FOR_IA'] = json.load(f)
     except FileNotFoundError:
-        app.config['MASTER_TITLES_FOR_IA'] = [{"display_title": "Matrix", "aliases": ["Matrix"]}]
+        app.config['MASTER_TITLES_FOR_IA'] = [] # Mudança para lista vazia em caso de erro
 
     app.config['PROMPT_TEMPLATES'] = [
         "Em uma única e concisa frase, descreva o objetivo principal do protagonista de '{title}' e o maior obstáculo em seu caminho. Não use nomes de personagens ou lugares.",
@@ -49,13 +47,17 @@ def create_app():
         "Descreva o problema central de '{title}' como uma avaliação de 1 estrela para um serviço, produto ou local. Exemplo: 'Péssimo serviço de cruzeiro, bateu num iceberg'. Responda em uma frase e não use nomes.",
     ]
 
-    # <<< MUDANÇA: A linha de importação foi corrigida >>>
     from wtfilm.routes.game import game_bp
     app.register_blueprint(game_bp)
 
     return app
 
-# Bloco para rodar o app em modo de desenvolvimento
+# <<< MUDANÇA PRINCIPAL >>>
+# Criamos a instância do app aqui, no escopo global do arquivo.
+# O Gunicorn e outras ferramentas de produção procurarão por esta variável.
+app = create_app()
+
+# O bloco if __name__ == '__main__' agora só serve para rodar o servidor de desenvolvimento
+# localmente no seu PC com Windows. Ele não será executado no servidor de produção.
 if __name__ == '__main__':
-    app = create_app()
     app.run(debug=True)
