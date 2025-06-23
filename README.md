@@ -14,6 +14,8 @@ O WTFilm é uma aplicação web full-stack desenvolvida em Python com o micro-fr
 * **Tolerância de Resposta Avançada:** O sistema de verificação normaliza as respostas, ignorando maiúsculas/minúsculas, acentos e pontuações.
 * **Suporte a Múltiplos Títulos:** Aceita diferentes nomes para o mesmo filme (ex: título em português e o original em inglês) graças a uma estrutura de dados com aliases.
 * **Feedback Inteligente:** Informa ao jogador não apenas se ele errou, mas também se está "perto" da resposta correta.
+* **"Nova Descrição":** Permite ao jogador gastar uma chance para obter uma nova sinopse para o mesmo filme.
+* **Renderização Segura:** Formatação de texto (negrito/itálico) vinda da IA é convertida de Markdown e sanitizada com `bleach` para evitar vulnerabilidades.
 * **Sistema Anti-Repetição:** Um sistema de "baralho de cartas" garante que um filme não seja repetido até que toda a lista de desafios tenha sido apresentada ao jogador.
 * **Interface Reativa:** Frontend construído com JavaScript puro (Vanilla JS) que se comunica com o backend de forma assíncrona, atualizando a interface sem recarregar a página.
 * **Histórico de Jogo:** Mantém um histórico visual das últimas 15 respostas certas e erradas/puladas.
@@ -86,8 +88,20 @@ Siga os passos abaixo para executar o projeto no seu ambiente de desenvolvimento
 
 6.  Abra seu navegador e acesse `http://127.0.0.1:5000`.
 
+## Testes
+
+Este projeto possui uma suíte de testes automatizados para garantir a qualidade e a estabilidade do código. Para rodar os testes, execute o seguinte comando na raiz do projeto:
+
+```bash
+   pytest
+   ```
+
 ## Próximos Passos
 
 * Implementar a funcionalidade de revelar o pôster do filme após um acerto.
 * Adicionar um sistema de pontuação ou ranking.
 * Criar um modo de jogo com tempo limitado.
+
+
+## Licença
+Este projeto está sob a licença MIT.
