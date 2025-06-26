@@ -10,11 +10,24 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainFeedbackEl = document.getElementById('main-feedback');
     const subFeedbackEl = document.getElementById('sub-feedback');
 
+    // <<< MUDANÇA: Seletores para o modal de ajuda >>>
+    const helpModal = document.getElementById('help-modal');
+    const openHelpModalButton = document.getElementById('open-help-modal');
+    const closeHelpModalButton = document.getElementById('close-help-modal');
+
     // State
     let isLoading = false;
     let feedbackFadeoutTimer = null;
 
-    // Funções auxiliares
+    // <<< MUDANÇA: Funções para controlar o modal >>>
+    function openModal() {
+        helpModal.classList.remove('hidden');
+    }
+    function closeModal() {
+        helpModal.classList.add('hidden');
+    }
+
+    // Funções auxiliares... (o resto do seu script.js continua aqui)
     guessInput.addEventListener('animationend', () => {
         guessInput.classList.remove('shake-element');
     });
@@ -45,12 +58,10 @@ document.addEventListener('DOMContentLoaded', () => {
         mainFeedbackEl.style.color = '';
     }
 
-    // <<< MUDANÇA: Nova função auxiliar para atualizar a sinopse com HTML >>>
     function updateSynopsisHTML(htmlContent) {
         synopsisEl.classList.remove('fade-in-element');
         synopsisEl.style.opacity = 0;
         setTimeout(() => {
-            // A única mudança crucial é aqui: .innerHTML em vez de .textContent
             synopsisEl.innerHTML = htmlContent;
             synopsisEl.classList.add('fade-in-element');
         }, 50);
@@ -70,7 +81,6 @@ document.addEventListener('DOMContentLoaded', () => {
             clearFeedback();
 
             if (response.ok) {
-                // <<< MUDANÇA: Usando a nova função auxiliar >>>
                 updateSynopsisHTML(data.newSynopsis);
 
                 mainFeedbackEl.textContent = 'Nova descrição gerada!';
@@ -121,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
         synopsisEl.classList.remove('loading-text');
 
         if (data.error) {
-            synopsisEl.textContent = data.synopsis;
+            synopsisEl.innerHTML = data.synopsis; // Usando innerHTML para o caso de erro
             synopsisEl.style.color = '#f1c40f';
             synopsisEl.classList.add('fade-in-element');
             guessInput.disabled = true;
@@ -129,7 +139,6 @@ document.addEventListener('DOMContentLoaded', () => {
             skipButton.disabled = false;
             isLoading = false;
         } else {
-            // <<< MUDANÇA: Usando a nova função auxiliar >>>
             updateSynopsisHTML(data.synopsis);
             lockGame(false);
             guessInput.focus();
@@ -207,6 +216,17 @@ document.addEventListener('DOMContentLoaded', () => {
     guessInput.addEventListener('keyup', (event) => { if (event.key === 'Enter') checkGuess(); });
     skipButton.addEventListener('click', skipQuestion);
     newSynopsisButton.addEventListener('click', getNewSynopsis);
+
+    // <<< MUDANÇA: Event listeners para o modal >>>
+    openHelpModalButton.addEventListener('click', openModal);
+    closeHelpModalButton.addEventListener('click', closeModal);
+    // Fecha o modal se o usuário clicar no fundo escuro
+    helpModal.addEventListener('click', (event) => {
+        if (event.target === helpModal) {
+            closeModal();
+        }
+    });
+
 
     // Iniciar o jogo
     startNewGame();

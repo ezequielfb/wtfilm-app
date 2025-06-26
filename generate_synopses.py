@@ -1,4 +1,3 @@
-# generate_synopses.py
 
 import os
 import json
