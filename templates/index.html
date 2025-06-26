@@ -11,23 +11,23 @@
 </head>
 <body>
 
-    <!-- <<< MUDANÇA: Botão para abrir o modal >>> -->
     <button id="open-help-modal" class="help-button">?</button>
 
-    <!-- <<< MUDANÇA: Estrutura completa do modal >>> -->
     <div id="help-modal" class="modal-overlay hidden">
         <div class="modal-content">
             <button id="close-help-modal" class="close-button">×</button>
             <h2>Como Jogar</h2>
             <div class="modal-text">
-                <p>Seu objetivo é adivinhar o nome do filme a partir de uma sinopse criativa e, muitas vezes, bem estranha!</p>
+                <!-- <<< MUDANÇA: Primeiro parágrafo atualizado >>> -->
+                <p>Seu objetivo é adivinhar o nome do filme a partir da descrição!</p>
                 <ul>
                     <li>Você tem <strong>3 chances</strong> para acertar cada filme.</li>
                     <li>Um palpite muito próximo da resposta correta te dará um feedback de "Quase lá!", mas ainda consome uma chance.</li>
                     <li>A partir do segundo filme, você pode clicar em <strong>"Nova descrição"</strong> para obter uma sinopse diferente para o mesmo filme, ao custo de uma chance.</li>
                     <li>Use o botão <strong>"Pular"</strong> se não souber a resposta para passar para o próximo desafio.</li>
                 </ul>
-                <p>O sistema ignora maiúsculas/minúsculas, acentos e a maioria dos símbolos na sua resposta. Divirta-se!</p>
+                <!-- <<< MUDANÇA: Último parágrafo atualizado >>> -->
+                <p>Você pode escrever em maiúsculas/minúsculas com ou sem acentos e a maioria dos símbolos, pode ser o nome original do filme. Divirta-se!</p>
             </div>
         </div>
     </div>

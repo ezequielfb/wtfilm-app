@@ -9,8 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const newSynopsisButton = document.getElementById('new-synopsis-button');
     const mainFeedbackEl = document.getElementById('main-feedback');
     const subFeedbackEl = document.getElementById('sub-feedback');
-
-    // <<< MUDANÇA: Seletores para o modal de ajuda >>>
     const helpModal = document.getElementById('help-modal');
     const openHelpModalButton = document.getElementById('open-help-modal');
     const closeHelpModalButton = document.getElementById('close-help-modal');
@@ -19,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let isLoading = false;
     let feedbackFadeoutTimer = null;
 
-    // <<< MUDANÇA: Funções para controlar o modal >>>
+    // Funções para controlar o modal
     function openModal() {
         helpModal.classList.remove('hidden');
     }
@@ -131,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
         synopsisEl.classList.remove('loading-text');
 
         if (data.error) {
-            synopsisEl.innerHTML = data.synopsis; // Usando innerHTML para o caso de erro
+            synopsisEl.innerHTML = data.synopsis;
             synopsisEl.style.color = '#f1c40f';
             synopsisEl.classList.add('fade-in-element');
             guessInput.disabled = true;
@@ -216,18 +214,25 @@ document.addEventListener('DOMContentLoaded', () => {
     guessInput.addEventListener('keyup', (event) => { if (event.key === 'Enter') checkGuess(); });
     skipButton.addEventListener('click', skipQuestion);
     newSynopsisButton.addEventListener('click', getNewSynopsis);
-
-    // <<< MUDANÇA: Event listeners para o modal >>>
     openHelpModalButton.addEventListener('click', openModal);
     closeHelpModalButton.addEventListener('click', closeModal);
-    // Fecha o modal se o usuário clicar no fundo escuro
     helpModal.addEventListener('click', (event) => {
         if (event.target === helpModal) {
             closeModal();
         }
     });
 
+    // <<< MUDANÇA: Lógica para mostrar o modal no primeiro acesso >>>
+    function showModalOnFirstVisit() {
+        // sessionStorage é limpo quando a aba do navegador é fechada.
+        // Isso garante que o modal apareça uma vez por "sessão de visita".
+        if (!sessionStorage.getItem('hasVisited')) {
+            openModal();
+            sessionStorage.setItem('hasVisited', 'true');
+        }
+    }
 
-    // Iniciar o jogo
+    // Iniciar o jogo e mostrar o modal
     startNewGame();
+    showModalOnFirstVisit();
 });
